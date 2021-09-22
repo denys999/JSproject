@@ -1,0 +1,47 @@
+ * {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     background-color: aqua;
+     display: flex;
+     flex-wrap: wrap;
+     font-family: "Poppins", sans-serif;
+     margin: 0;
+ }
+ 
+ .notes {
+     width: 400px;
+     margin: 20ppx;
+     height: 400px;
+     background-color: brown;
+ }
+ 
+ .notes .tools {
+     background-color: blueviolet;
+     padding: 0.5rem;
+     justify-content: flex-end;
+     display: flex;
+ }
+ 
+ .notes .tools button {
+     background-color: transparent;
+     border: none;
+     color: #fff;
+     font-size: 1rem;
+     margin-left: 0.5rem;
+ }
+ 
+ .nites .main {
+     display: none;
+     height: 100%;
+     width: 100%;
+ }
+ 
+ .notes textarea {
+     outline: none;
+     height: 100%;
+     width: 100%;
+     border: none;
+     font-family: inherit;
+ }
